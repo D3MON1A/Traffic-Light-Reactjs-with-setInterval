@@ -16,7 +16,7 @@ export function Home() {
 						: color === "green"
 							? setColor("yellow")
 							: null;
-			}, 5000);
+			}, 3000);
 			return () => clearInterval(interval);
 		},
 		[color]
